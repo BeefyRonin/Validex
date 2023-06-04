@@ -57,7 +57,7 @@ var contractAbi = [
 				"type": "string"
 			}
 		],
-		"stateMutability": "nonpayable",
+		"stateMutability": "pure",
 		"type": "function"
 	},
 	{
@@ -100,9 +100,10 @@ var contractAbi = [
 				"type": "string"
 			}
 		],
-		"stateMutability": "nonpayable",
+		"stateMutability": "view",
 		"type": "function"
 	}
-]; // Paste Contract Here
+];
+	 // Paste Contract Here
 
-var contractAddress ='0x65A89597D773ED4F84B29e9a7ff6572fc64aD27f'; // Paste Address here
+var contractAddress ='0xd95E1Afbfef50C36993AD44dE4F1cdc09721722c'; // Paste Address here
